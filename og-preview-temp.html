@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,600;1,700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&display=swap" rel="stylesheet">
+<style>
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html,body{background:#3a3a3a;}
+  #card{
+    position:relative;
+    width:1200px;height:630px;
+    overflow:hidden;
+    background:#F7F1E5;
+    font-family:"Source Serif 4",Georgia,serif;
+  }
+  .art{
+    position:absolute;top:0;right:0;bottom:0;width:62%;
+    background-image:
+      linear-gradient(90deg,#F7F1E5 0%,rgba(247,241,229,0) 56%),
+      url("https://tuvichualanh.com/assets/img/hero-shanshui.jpg");
+    background-size:cover;background-position:60% center;
+  }
+  .content{
+    position:relative;
+    max-width:600px;
+    padding:64px 0 0 64px;
+  }
+  .pillars{
+    font-size:14px;font-weight:700;color:#B07E2E;
+    letter-spacing:.18em;text-transform:uppercase;margin:0 0 22px;
+  }
+  .pillars::before{content:"✦ ";color:#C29A4F;}
+  h1{
+    font-family:"Cormorant Garamond","Noto Serif",Georgia,serif;
+    font-weight:700;font-size:66px;line-height:1.08;
+    color:#20302B;margin:0 0 20px;
+  }
+  h1 span{color:#0D3B32;}
+  .slogan{
+    max-width:500px;font-size:21px;line-height:1.45;
+    color:#20302B;opacity:.85;font-weight:400;margin:0 0 22px;
+  }
+  .tagline{
+    font-family:"Cormorant Garamond","Noto Serif",Georgia,serif;
+    font-style:italic;font-weight:600;font-size:36px;
+    color:#B07E2E;margin:0 0 36px;
+  }
+  .brandline{
+    position:absolute;left:64px;bottom:40px;
+    font-family:"Source Serif 4",Georgia,serif;
+    font-size:15px;font-weight:600;color:#20302B;opacity:.55;
+    letter-spacing:.04em;
+  }
+  .brandline b{opacity:1;font-weight:700;}
+</style>
+</head>
+<body>
+<div id="card">
+  <div class="art"></div>
+  <div class="content">
+    <p class="pillars">Hiểu Mình - Cải Mệnh - Chữa Lành</p>
+    <h1><span>Tử Vi</span> Chữa Lành</h1>
+    <p class="slogan">Ứng dụng Tử Vi, Tâm Lý, Đạo Học để Hiểu Mình, Cải Mệnh &amp; Chữa Lành.</p>
+    <p class="tagline">Lá số là bản đồ chữa lành</p>
+  </div>
+  <p class="brandline"><b>Bộ Tộc Tử Vi Chữa Lành</b> · tuvichualanh.com</p>
+</div>
+</body>
+</html>
