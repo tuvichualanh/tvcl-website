@@ -237,6 +237,20 @@ nav.main-nav a.active{color:var(--blue);opacity:1;font-weight:600;}
 .band-dark .channel-note-heading{color:var(--gold-light);}
 .band-dark .channel-note-contact{opacity:.8;}
 
+/* ---- Philosophy quote band (Triết Lý Tử Vi Chữa Lành) ---- */
+.philosophy-section{text-align:center;}
+.philosophy-quote{
+  font-family:"Cormorant Garamond","Noto Serif",Georgia,serif;
+  font-style:italic;font-weight:700;font-size:44px;line-height:1.28;
+  color:var(--white);max-width:820px;margin:0 auto 20px;
+}
+.philosophy-sub{
+  font-size:17px;color:var(--sage);opacity:.9;max-width:640px;margin:0 auto;
+}
+@media (max-width:700px){
+  .philosophy-quote{font-size:30px;}
+}
+
 /* ---- Channels / courses section ---- */
 .channel-section{padding-top:8px;}
 .channel-card{border:1px solid transparent;}
