@@ -120,9 +120,9 @@ nav.main-nav a.active{color:var(--blue);opacity:1;font-weight:600;}
 }
 .hero h1{
   font-family:"Cormorant Garamond","Noto Serif",Georgia,serif;
-  font-weight:700;font-size:58px;line-height:1.08;margin:0 0 14px;color:#123B52;
+  font-weight:700;font-size:58px;line-height:1.08;margin:0 0 14px;color:var(--green-deep);
 }
-.hero h1 span{color:#1B5A82;}
+.hero h1 span{color:var(--green-deep);}
 .hero .community{font-size:16px;color:var(--ink);opacity:.75;margin:0 0 22px;font-weight:500;}
 .hero .slogan{
   max-width:520px;margin:0 0 16px;font-size:19px;color:var(--ink);
