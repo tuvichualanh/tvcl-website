@@ -5,10 +5,6 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://tuvichualanh.com/khoa-hoc/luan-nhanh-tu-vi/</loc>
-    <priority>0.9</priority>
-  </url>
-  <url>
     <loc>https://tuvichualanh.com/docs/10-gioi-thieu-tvcl.html</loc>
     <priority>0.8</priority>
   </url>
@@ -42,6 +38,10 @@
   </url>
   <url>
     <loc>https://tuvichualanh.com/docs/06-14-chinh-tinh.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tuvichualanh.com/docs/sao-thien-co.html</loc>
     <priority>0.8</priority>
   </url>
   <url>
